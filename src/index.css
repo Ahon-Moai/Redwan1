@@ -59,4 +59,10 @@
   #items {
     display: flex;
   }
+  #head {
+    font-size: 32px;
+  }
+}
+
+#player {
 }

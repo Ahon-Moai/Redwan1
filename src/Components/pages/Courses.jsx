@@ -25,7 +25,7 @@ const Courses = () => {
             consectetur?
           </p>
           <li className=" list-none w-[135px] ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
-            <Link to="/404">Learn More</Link>
+            <Link to="/chemistry">Learn More</Link>
           </li>
         </div>{" "}
         <div className="item bg-[#273F59] sm:mr-1 mb-4 w-full md:w-1/2 lg:w-1/3 h-[640px]">
