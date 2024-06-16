@@ -2,6 +2,7 @@ import React from "react";
 import course from "./course.jpg";
 import courcePIC from "./Untitled.jpg";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Courses = () => {
   return (
     <div className="bg-[#001D3D] font-Inter text-white sm:h-[3100px]  h-[4000px] w-full">
@@ -23,63 +24,50 @@ const Courses = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
             consectetur?
           </p>
-          <button className=" ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
-            Learn More
-          </button>
-        </div>
+          <li className=" list-none w-[135px] ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
+            <Link to="/404">Learn More</Link>
+          </li>
+        </div>{" "}
         <div className="item bg-[#273F59] sm:mr-1 mb-4 w-full md:w-1/2 lg:w-1/3 h-[640px]">
           <img src={courcePIC} alt="/" />
           <h1 className="text-[32px] font-Poppins font-extrabold py-3 px-3">
-            CHEMISTRY BASIC TO PRO
+            CHEMISTRY BASIC TO PRO!
           </h1>
           <p className="px-4 font-medium text-[18px]">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
             consectetur?
           </p>
-          <button className=" ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
-            Learn More
-          </button>
+          <li className="list-none w-[135px] ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
+            <Link to="/404">Learn More</Link>
+          </li>
         </div>
         <div className="item bg-[#273F59] sm:mr-1 mb-4 w-full md:w-1/2 lg:w-1/3 h-[640px]">
           <img src={courcePIC} alt="/" />
           <h1 className="text-[32px] font-Poppins font-extrabold py-3 px-3">
-            CHEMISTRY BASIC TO PRO
+            CHEMISTRY BASIC TO PRO!
           </h1>
           <p className="px-4 font-medium text-[18px]">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
             consectetur?
           </p>
-          <button className=" ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
-            Learn More
-          </button>
-        </div>
-        <div className="item bg-[#273F59] sm:mr-1 mb-4 w-full md:w-1/2 lg:w-1/3 h-[640px]">
-          <img src={courcePIC} alt="/" />
-          <h1 className="text-[32px] font-Poppins font-extrabold py-3 px-3">
-            CHEMISTRY BASIC TO PRO
-          </h1>
-          <p className="px-4 font-medium text-[18px]">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-            consectetur?
-          </p>
-          <button className=" ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
-            Learn More
-          </button>
+          <li className="list-none w-[135px] ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
+            <Link to="/404">Learn More</Link>
+          </li>
         </div>
         <div className="item bg-[#273F59] mr-1 w-full md:w-1/2 lg:w-1/3 h-[640px]">
           <img src={courcePIC} alt="/" />
           <h1 className="text-[32px] font-Poppins font-extrabold py-3 px-3">
-            CHEMISTRY BASIC TO PRO
+            CHEMISTRY BASIC TO PRO!
           </h1>
           <p className="px-4 font-medium text-[18px]">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
             consectetur?
           </p>
-          <button className=" ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
-            Learn More
-          </button>
+          <li className="list-none w-[135px] ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
+            <Link to="/404">Learn More</Link>
+          </li>
         </div>
-        <div className="item hidden sm:ml-1 bg-[#273F59] w-full md:w-1/2 lg:w-1/3 h-[600px]">
+        <div className="item hidden sm:hidden sm:ml-1 bg-[#273F59] w-full md:w-1/2 lg:w-1/3 h-[640px]">
           <img src={courcePIC} alt="/" />
           <h1 className="text-[32px] font-Poppins font-extrabold py-3 px-3">
             CHEMISTRY BASIC TO PRO
@@ -88,9 +76,9 @@ const Courses = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
             consectetur?
           </p>
-          <button className=" ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
-            Learn More
-          </button>
+          <li className="list-none w-[135px] ml-2 mt-2 sm:mt-5 bg-[#001D3D] px-6 py-2">
+            <Link to="/404">Learn More</Link>
+          </li>
         </div>
       </div>
     </div>

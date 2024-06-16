@@ -56,7 +56,7 @@ function Hero() {
             transform the way you learn and approach exams.
           </p>
           <div id="btns" className="flex mt-10">
-            <li className="font-Poppins mr-16 px-8 py-3 rounded-sm shadow-lg text-[18px] font-medium bg-[#273F59]">
+            <li className="list-none font-Poppins mr-16 px-8 py-3 rounded-sm shadow-lg text-[18px] font-medium bg-[#273F59]">
               <Link to="/courses">My Courses</Link>
             </li>
             <button
