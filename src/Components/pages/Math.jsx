@@ -4,7 +4,7 @@ import { FaDotCircle } from "react-icons/fa";
 import { FaDiamond } from "react-icons/fa6";
 
 import "./page.css";
-const Chemistry = () => {
+const Math = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to top on component mount
   }, []);
@@ -18,9 +18,9 @@ const Chemistry = () => {
           >
             <h1
               id="head"
-              className="bg-[rgb(28,57,87)] sm:px-20 sm:py-10 sm:w-full sm:text-[62px]"
+              className="bg-[rgb(28,57,87)]  sm:px-20 sm:py-10 sm:w-full sm:text-[62px]"
             >
-              CHEMISTRY BASIC TO PRO!
+              G.MATH BASIC TO PRO!
             </h1>
           </div>
         </main>
@@ -182,4 +182,4 @@ const Chemistry = () => {
   );
 };
 
-export default Chemistry;
+export default Math;
