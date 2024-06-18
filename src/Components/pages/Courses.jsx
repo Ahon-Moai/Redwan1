@@ -1,6 +1,10 @@
 import React from "react";
 import course from "./course.jpg";
 import courcePIC from "./Untitled.jpg";
+import courcePICPhysics from "./physics.jpg";
+import courcePICMath from "./math.jpg";
+import courcePICHigherMath from "./highermath.jpg";
+
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Courses = () => {
@@ -32,7 +36,7 @@ const Courses = () => {
           </li>
         </div>{" "}
         <div className="item bg-[#273F59] sm:mr-1 mb-4 w-full md:w-1/2 lg:w-1/3 h-[640px]">
-          <img src={courcePIC} alt="/" />
+          <img src={courcePICPhysics} alt="/" />
           <h1 className="text-[32px] font-Poppins font-extrabold py-3 px-3">
             PHYSICS BASIC TO PRO!
           </h1>
@@ -45,7 +49,7 @@ const Courses = () => {
           </li>
         </div>
         <div className="item bg-[#273F59] sm:mr-1 mb-4 w-full md:w-1/2 lg:w-1/3 h-[640px]">
-          <img src={courcePIC} alt="/" />
+          <img src={courcePICMath} alt="/" />
           <h1 className="text-[32px] font-Poppins font-extrabold py-3 px-3">
             GENERAL MATH BASIC TO PRO!
           </h1>
@@ -58,7 +62,7 @@ const Courses = () => {
           </li>
         </div>
         <div className="item bg-[#273F59] mr-1 w-full md:w-1/2 lg:w-1/3 h-[640px]">
-          <img src={courcePIC} alt="/" />
+          <img src={courcePICHigherMath} alt="/" />
           <h1 className="text-[32px] font-Poppins font-extrabold py-3 px-3">
             HIGHER MATH BASIC TO PRO!
           </h1>
