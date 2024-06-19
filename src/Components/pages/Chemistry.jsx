@@ -194,7 +194,7 @@ const Chemistry = () => {
                   Join বাটনে ক্লিক করলেই ২৪ ঘন্টার মধ্যে এক্সেস পেয়ে যাবে।
                 </span>
               </div>
-              <button className="py-2 px-2 mt-2 text-white bg-opacity-25 bg-white bg-blur  shadow-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 sm:py-3 sm:px-6 rounded-md flex items-center justify-between">
+              <button className="py-2 px-2 mt-2 text-white bg-opacity-25 bg-white bg-blur 4\ shadow-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 sm:py-3 sm:px-6 rounded-md flex items-center justify-between">
                 <span className="text-xs sm:text-sm font-bold">
                   This Course Fee:
                 </span>
