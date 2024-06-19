@@ -13,14 +13,22 @@ html {
   border: 1px solid #fffff;
   border-radius: 60px;
 }
+.courseDetailsTextSpan {
+  font-size: 12px;
+  line-height: 1px; /* Or adjust as needed */
+  letter-spacing: -0.2px; /* Optional, use with caution */
+}
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   #base {
     height: 1600px;
     width: 780px;
   }
   html {
     scroll-behavior: smooth;
+  }
+  #courseDetailsText {
+    font-size: 22px;
   }
   #logo {
     position: absolute;
@@ -32,6 +40,12 @@ html {
     top: 100%;
     left: 30%;
   }
+  #courseDetailsTextSpan {
+    font-size: 11px;
+    line-height: none; /* Or adjust as needed */
+    letter-spacing: -0.5px; /* Optional, use with caution */
+  }
+
   #title {
     visibility: hidden;
   }

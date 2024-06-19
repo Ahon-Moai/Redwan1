@@ -5,8 +5,14 @@ html {
 body {
   margin: 0;
 }
+.courseDetailsTextSpan {
+  font-size: 12px;
+  line-height: 1px;
+  gap: 1px; /* Or adjust as needed */
+  letter-spacing: -0.2px; /* Optional, use with caution */
+}
 
-@media (max-width: 600px) {
+@media (max-width: 950px) {
   #head {
     font-size: 25px;
     border-radius: 5px;
@@ -30,11 +36,17 @@ body {
   }
   #courseDetailsTextSpan {
     font-size: 16px;
-    line-height: 1.5rem;
+    line-height: 1px; /* Or adjust as needed */
+    letter-spacing: -0.2px; /* Optional, use with caution */
   }
   #title-helper {
     margin-left: -12px;
     width: 110%;
     margin-top: -10px;
+  }
+}
+@media (max-width: 360px) {
+  #head {
+    font-size: 21px;
   }
 }

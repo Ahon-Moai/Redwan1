@@ -50,14 +50,14 @@ const Chemistry = () => {
               />
               <h1
                 id="courseDetailsText"
-                className="  underline text-3xl font-Poppins font-bold"
+                className="  underline sm:text-3xl font-Poppins font-bold"
               >
                 যাদের জন্য এই কোর্সটি :{" "}
               </h1>
             </div>
             <span
               id="courseDetailsTextSpan"
-              className="text-2xl font-light  sm:w-[920px] py-10 mr-2"
+              className="text-2xl font-light   sm:w-[920px] py-10 mr-2"
             >
               আমি আমার দেশকে ভালোবাসি যা বাংলাদেশ যা বাংলাদেশের জন্য ভালো আমি
               আমার দেশকে ভালোবাসি যা বাংলাদেশ যা বাংলাদেশের জন্য ভালো আমি আমার
