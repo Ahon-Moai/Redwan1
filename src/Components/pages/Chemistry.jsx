@@ -212,7 +212,9 @@ const Chemistry = () => {
                 Lifetime access.
               </p>
               <p className="text-green-700 font-Poppins hover:cursor-pointer underline mt-2 px-2">
-                <a href="https://www.facebook.com">Click here to buy</a>
+                <a href="https://www.facebook.com/redwan.hushen.16">
+                  Click here to buy
+                </a>
               </p>
             </div>
           </div>
